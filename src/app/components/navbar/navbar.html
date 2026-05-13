@@ -1,0 +1,31 @@
+<nav>
+  <h2>{{appName}}</h2>
+
+  <ul>
+
+    <li>
+      <a routerLink="/">Home</a>
+    </li>
+
+    <li>
+      <a routerLink="/blogs">Blogs</a>
+    </li>
+
+    <li>
+      <a routerLink="/create">Create Blog</a>
+    </li>
+
+  </ul>
+  <div>
+    <input type="text" placeholder="Search..." 
+    [(ngModel)]="searchQuery" 
+    (keypress)="onEnter($event)"
+    >
+    <button 
+        (click)="onSearch()"
+    >
+        Search
+    </button>
+  </div>
+</nav>
+
