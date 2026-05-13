@@ -261,3 +261,4 @@ This dynamically loads pages based on URL.
 * DOM manipulation using directives
 * Navigation without page reload
 
+![alt text](image-1.png)
