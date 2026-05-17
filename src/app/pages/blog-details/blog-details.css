@@ -1,0 +1,37 @@
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.details-card {
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.details-card h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.details-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.blog-id {
+  margin-top: 25px;
+  background-color: #f3f4f6;
+  padding: 12px 18px;
+  border-radius: 10px;
+  width: fit-content;
+  font-weight: 600;
+  color: #374151;
+}

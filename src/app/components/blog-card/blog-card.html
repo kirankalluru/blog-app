@@ -1,0 +1,19 @@
+<div class="card">
+
+  <div class="card-content">
+
+    <h2>{{ blog.title }}</h2>
+
+    <p>{{ blog.description }}</p>
+
+    <a [routerLink]="['/blog', blog.id]">
+      View Details
+    </a>
+
+     <button (click)="deleteBlog()">
+      Delete
+    </button>
+
+  </div>
+
+</div>

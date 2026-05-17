@@ -1,1 +1,44 @@
-<h1>Welcome to Home page</h1>
+<div class="hero-section">
+
+  <div class="hero-content">
+
+    <h1>Welcome to Angular Blog App</h1>
+
+    <p>
+      Learn Angular concepts through real-world blog articles
+      and hands-on project development.
+    </p>
+
+    <a routerLink="/blogs">
+      Explore Blogs
+    </a>
+
+  </div>
+
+</div>
+
+<div class="featured-section">
+
+  <h2>Featured Blogs</h2>
+
+  <div class="featured-blogs">
+
+    <app-blog-card
+      *ngFor="let blog of featuredBlogs"
+      [blog]="blog"
+    >
+    </app-blog-card>
+
+  </div>
+
+</div>
+
+<div class="cta-section">
+
+  <h2>Want to Publish Your Own Blog?</h2>
+
+  <a routerLink="/create">
+    Create Blog
+  </a>
+
+</div>

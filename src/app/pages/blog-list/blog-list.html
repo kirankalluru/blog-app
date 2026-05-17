@@ -1,1 +1,10 @@
-<h1>Blog List</h1>
+<div class="blog-container">
+
+  <app-blog-card
+    *ngFor="let blog of blogs"
+    [blog]="blog"
+    (remove)="deleteBlog($event)"
+  >
+  </app-blog-card>
+
+</div>

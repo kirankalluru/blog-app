@@ -1,1 +1,18 @@
-<h1>Blog Details</h1>
+<div class="details-container" *ngIf="blog">
+
+  <div class="details-card">
+
+    <h1>{{ blog.title }}</h1>
+
+    <p>
+      {{ blog.description }}
+    </p>
+
+    <div class="blog-id">
+      Blog ID: {{ blog.id }}
+    </div>
+    
+
+  </div>
+
+</div>
